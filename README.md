@@ -3,17 +3,16 @@
 ## Things to do:
 - add/fix semantic HTML elements
 - logical flow to HTML elements; structure correct
-- image elements have alt attributes √
-- heading attributes fall in sequential order
-- title elements concise and descriptive
+- √ image elements have alt attributes 
+- √ heading attributes fall in sequential order 
+- √ title elements concise and descriptive
 
-- when browser changes sizes, text doesn't always fit in its boxes (nav doesn't, SEO, etc content falls out of box)
-- alt text for hero bg?
+
 
 ## What I've changed so far
 
 ### Overall Appearance
-1. Proper indentation (not complete)
+1. Proper indentation 
 2. Added title elements (to HTML and CSS)
 3. Changed head title to one more reflective of website
 4. Grouped sections together
@@ -32,4 +31,17 @@
 ### Benefits
 - alt text to images; since images are purely decorative just used alt=""
 
+### CSS style sheet
+- font-famiy for ".benefits", .search-engine-optimization, .online-reputation-management, and .social-media-marketing were all the same so updated .body to hold the font-family element to condense code
+- font color throughout was mostly all white; added color: "ffffff" to body, took it off of others (Just not header and had to adjust footer color)
+- started utility class section 
+<!--still working on -->
+- seo, orm, and smm styles are all the same; consolidated them into one style to clean repeat code (NOT DONE YET!)
+
+
+#### come back to look at:
+- when browser changes sizes, text doesn't always fit in its boxes (nav doesn't, SEO, etc content falls out of box)
+    - noted in Instructions as future learning how to fix
+- alt text for hero bg?
+- header nav CSS still contains font-family that is same as body; when tried to change it and include with body it changed font size
     
