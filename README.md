@@ -35,8 +35,15 @@
 - font-famiy for ".benefits", .search-engine-optimization, .online-reputation-management, and .social-media-marketing were all the same so updated .body to hold the font-family element to condense code
 - font color throughout was mostly all white; added color: "ffffff" to body, took it off of others (Just not header and had to adjust footer color)
 - started utility class section 
+- seo, orm, and smm styles are all the same; consolidated them into one style to clean repeat code 
+    - deleted style for: .search-engine-optimization + .img + h2
+        - .online-reputation-management + .img + h2
+        - .social-media-marketing + .img +h2
+    - consolidated them into new class .content-info (margin, padding, height, bg color, and overflow)
+        - .content-info img (took out float from img html, put in css as its own style)
+            - deleted .online-reputation-management img and .social-media-marketing img --> merged into .content-info img style with the proper float
+    - new utility class style for text alignment to float in .content section
 <!--still working on -->
-- seo, orm, and smm styles are all the same; consolidated them into one style to clean repeat code (NOT DONE YET!)
 
 
 #### come back to look at:
