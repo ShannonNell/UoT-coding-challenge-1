@@ -1,8 +1,33 @@
-# Code Refactor Starter Code
+# Challenge 1: Code Refactor
+
+This is code refactored for UoT's Coding Bootcamp challenge assignment 1. Code was given to be cleaned up, condensed, and organized.
+
+```bash
+words
+oh look, more words.
+Words (in) ('color')
+```
+
+```sh
+git add -A
+git commit -m "my message"
+terminal commands
+```
+> these words are
+> in a different box
+> but not on different lines? 
+
+- creates a list [link-name](http://google.ca)
+
+| Plugin | README |
+| ------ | ------|
+| Dropbox | [link](http://google.ca) |
+
+
 
 ## Things to do:
-- add/fix semantic HTML elements
-- logical flow to HTML elements; structure correct
+- √ add/fix semantic HTML elements
+- √ logical flow to HTML elements; structure correct
 - √ image elements have alt attributes 
 - √ heading attributes fall in sequential order 
 - √ title elements concise and descriptive
@@ -30,6 +55,7 @@
 
 ### Benefits
 - alt text to images; since images are purely decorative just used alt=""
+- condensed css styles that were duplicates
 
 ### CSS style sheet
 - font-famiy for ".benefits", .search-engine-optimization, .online-reputation-management, and .social-media-marketing were all the same so updated .body to hold the font-family element to condense code
