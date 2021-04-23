@@ -16,7 +16,7 @@ To assist in ease of reading code, comments were added to describe elements in b
 ![Horiseon home page screenshot](develop/assets/images/c1_screenshot.png)
 
 ## Links:
-[Deployed Horizon Website](insertURLhere)
+[Deployed Horizon Website]( https://shannonnell.github.io/UoT-coding-challenge-1/)
 
 ## Credits
 Sole contributor: [ShannonNell](https://github.com/ShannonNell)
