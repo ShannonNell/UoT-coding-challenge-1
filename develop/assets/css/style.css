@@ -18,8 +18,14 @@ header {
     color: #ffffff;
 }
 
+/* added flexbox to header */
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 header h1 {
-    display: inline-block;
     font-size: 48px;
 }
 
@@ -30,9 +36,9 @@ header h1 .seo {
 header nav {
     padding-top: 15px;
     margin-right: 20px;
-    float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
+    display: flex;
 }
 
 header nav ul {
